@@ -171,3 +171,6 @@ table.compare td.name{font-family:var(--display);color:var(--ink)}
 
 @media(max-width:900px){.cat-grid{grid-template-columns:repeat(2,1fr)}.products{grid-template-columns:repeat(2,1fr)}.products .product:first-child{flex-direction:column}.products .product:first-child .thumb{flex:auto;min-height:200px;border-right:0;border-bottom:1px solid var(--line)}.products .product:first-child .thumb::before{font-size:90px;padding:16px}.trust-grid{grid-template-columns:1fr;gap:14px}.footer-grid{grid-template-columns:1fr 1fr;gap:24px}}
 @media(max-width:680px){.nav-links{display:none;position:absolute;top:74px;left:0;right:0;background:var(--paper);flex-direction:column;gap:0;padding:8px;border-bottom:1px solid var(--line);box-shadow:var(--shadow)}.nav-links.open{display:flex}.nav-links a{padding:13px}.nav-toggle{display:block}.products{grid-template-columns:1fr}.cat-grid{grid-template-columns:1fr 1fr}.pick{grid-template-columns:1fr}.pick .pick-ic{max-width:140px}.pick .pros-cons{grid-template-columns:1fr}.signup{flex-direction:column}.footer-grid{grid-template-columns:1fr}}
+
+/* Keep affiliate buttons styled correctly when nested inside .prose */
+.prose a.btn{color:#fff;text-decoration:none}
